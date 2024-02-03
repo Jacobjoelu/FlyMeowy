@@ -1,0 +1,127 @@
+body {
+  margin: 0 !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  min-width: 960px;
+}
+ul {
+  list-style-type: none;
+  padding: 10px;
+  overflow: visible;
+  background-color: rgb(74, 109, 185);
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(120, 156, 235);
+  max-width: auto;
+  max-height: auto;
+}
+div {
+  text-align: center;
+}
+hr {
+  border-bottom: 2px;
+  border-style: dotted;
+  max-width: 500px;
+}
+.location {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: rgb(78, 78, 78);
+  text-transform: uppercase;
+}
+img {
+  width: 40em;
+  border: 5em;
+  border: 5px solid grey;
+  border-style: double;
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  color: rgb(78, 78, 78);
+  text-align: center;
+}
+header {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: italic;
+  text-align: center;
+  font-size: 50px;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+  padding: auto;
+  color: black;
+}
+th {
+  background-color: rgb(97, 97, 97);
+  justify-content: center;
+  padding: 10px;
+  color: white;
+  border: 2px solid black;
+}
+td {
+  justify-content: center;
+  padding: 10px;
+  color: black;
+  border: 2px solid rgb(44, 44, 44);
+}
+tr:nth-child(odd) {
+  background-color: rgb(199, 199, 199);
+}
+.pot {
+  align-content: center;
+}
+#boxes {
+  width: 400px;
+  height: auto;
+  text-align: center;
+  color: rgb(43, 43, 43);
+  background-color: white;
+  bo
+  border: 2px solid rgb(104, 101, 101);
+  border-radius: 10px;
+  line-height: auto;
+}
+#names {
+  text-align: right;
+  padding-right: 10px;
+}
+#tag {
+  font-size: 15px;
+  font-weight: bold;
+}
+footer {
+  position: bottom;
+}
+.left {
+  margin-right: auto;
+}
+.right {
+  margin-left: auto;
+}
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+  overflow: auto;
+}
+.comments{
+  align-items: center;
+}
